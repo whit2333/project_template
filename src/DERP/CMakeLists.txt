@@ -4,17 +4,7 @@ set(libname "${aname}")
 set(dictname "${libname}Dict")
 set(lib_LINKDEF "${PROJECT_SOURCE_DIR}/src/${aname}/include/LinkDef.h")
 set(lib_DICTIONARY_SRC "${libname}Dict.cxx")
-
-# ROOT dictionary files
-#if(PROJECT_USE_ROOT6)
-   # ROOT6 generates pcm files that should install with into the lib directory
-   # todo: fix the install of this
-   #set(lib_PCM_FILE "${PROJECT_BINARY_DIR}/${libname}Dict_rdict.pcm")
 set(lib_PCM_FILE "${PROJECT_BINARY_DIR}/src/${aname}/${libname}Dict_rdict.pcm")
-   #endif(PROJECT_USE_ROOT6)
-   #if(NOT PROJECT_USE_ROOT6)
-   #   set(lib_DICTIONARY_HEADER "${libname}Dict.h")
-   #endif(NOT PROJECT_USE_ROOT6)
 
 include_directories(${PROJECT_SOURCE_DIR}/src/${aname}/include)
 
