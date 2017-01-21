@@ -1,0 +1,12 @@
+// the configured options and settings for Tutorial
+#define DerpLib_MAJOR_VERSION @DerpLib_MAJOR_VERSION@
+#define DerpLib_MINOR_VERSION @DerpLib_MINOR_VERSION@
+#define DerpLib_PATCH_VERSION @DerpLib_PATCH_VERSION@
+
+#define DerpLib_DATA_DIR      "@DerpLib_DATA_DIR@"
+#define DerpLib_CXX_CFLAGS    "@DerpLib_CXX_CFLAGS@"
+#define DerpLib_CXX_LDFLAGS   "@DerpLib_CXX_LDFLAGS@"
+#define DerpLib_CXX_LIBS      "@DerpLib_CXX_LIBS@"
+#define DerpLib_CXX_INC_DIR   "@DerpLib_CXX_INC_DIR@"
+#define DerpLib_PREFIX        "@CMAKE_INSTALL_PREFIX@"
+
