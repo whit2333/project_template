@@ -52,7 +52,7 @@ ADD_DEPENDENCIES(${libname} ${needs_libs} ${aname}_ROOTDICTS)
 
 INSTALL(
    TARGETS ${libname} 
-   #   EXPORT ${PROJECT_NAME}Targets
+   EXPORT ${PROJECT_NAME}Targets
    DESTINATION lib )
 
 INSTALL(
