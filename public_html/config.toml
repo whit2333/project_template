@@ -1,4 +1,4 @@
-baseurl = "http://.com/"
+baseurl = "https://whit2333.github.io/project_template/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo_theme_robust"

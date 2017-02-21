@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>http://.com/post/</link>
+    <link>https://whit2333.github.io/project_template/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Feb 2017 18:25:05 -0600</lastBuildDate>
-    <atom:link href="http://.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://whit2333.github.io/project_template/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>hello</title>
-      <link>http://com/post/hello/</link>
+      <link>https://whit2333.github.io/project_template/post/hello/</link>
       <pubDate>Mon, 20 Feb 2017 18:25:05 -0600</pubDate>
       
-      <guid>http://com/post/hello/</guid>
+      <guid>https://whit2333.github.io/project_template/post/hello/</guid>
       <description>&lt;p&gt;derp&lt;/p&gt;
 </description>
     </item>
